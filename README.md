@@ -23,15 +23,34 @@ Streamlit for web deployment
 
 📦 Dataset
 The model is trained on the SMS Spam Collection Dataset from Kaggle.
+
 Dataset link: https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset
 
 
+📁 Files in this Repository
+
+app.py : Streamlit app for classifying SMS messages as spam or ham
+
+spam.ipynb: Jupyter Notebook containing data cleaning, EDA, text preprocessing, and model building
+
+vectorizer.pkl :	Pickle file for the text vectorization model
+
+model.pkl	: Trained  classification model stored as a pickle file
+
+requirements.txt : List of dependencies for running the project
+
+
+
+
 🚀 How to Run Locally
+
 Clone the repo:
 
 bash
 git clone https://github.com/your-username/spam-classifier.git
+
 cd spam-classifier
+
 Install dependencies:
 
 bash
@@ -46,6 +65,7 @@ streamlit run app.py
 Make sure the following lines are present in your app.py to download NLTK resources:
 
 python
+
 import nltk
 
 nltk.download('punkt')

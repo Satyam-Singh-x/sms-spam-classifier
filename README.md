@@ -12,7 +12,10 @@ Styled with custom Streamlit components for a professional look.
 
 Deployed for easy access and testing.
 
+Live demo link: https://sms-spam-classifier-bysatyam.streamlit.app/
+
 ⚙️ Tech Stack
+
 Python 🐍
 
 Pandas & Scikit-learn for model training

@@ -78,6 +78,8 @@ nltk.download('stopwords')
 
 🙋‍♂️ Author Made with ❤️ by Satyam Singh
 
+B.Tech, Chemical Engineering – Jadavpur University
+
 📫 singhsatyam.0912@gmail.com — https://www.linkedin.com/in/satyam-singh-61152a334
 
 📄 License This project is licensed under the MIT License
